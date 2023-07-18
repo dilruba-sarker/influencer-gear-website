@@ -12,7 +12,7 @@ border: 1px solid brown;} */
 
 .header-section{max-width: 1140px;
    height: 115vh;
-    background-color: rgba(253, 210, 210,.5);
+    background-color: white;
    ;
 }
 
@@ -37,7 +37,7 @@ li{list-style: none;
 
 }
 .banner-container{max-width: 1140px;
-    /* height: 100vh; */
+   margin-left: 150px;
     display: flex;}
 .banner{
     width: 50%;
@@ -56,8 +56,6 @@ li{list-style: none;
              border: none;
              border-radius: 20px;
              padding: 10px;
-
-
 
 }
 
@@ -83,7 +81,7 @@ li{list-style: none;
 
 .collection{
     max-width: 1140px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .populer-collection{
     max-width: 80%;
@@ -123,6 +121,59 @@ li{list-style: none;
     padding-bottom: 10px;
     color: rgba(12, 12, 12,.8);
 }
+.more{
+  
+    color: #C70039;
+}
+
+.place{max-width: 1140px;
+    height: 60vh;
+    display: flex;  
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+    border: 1px solid seagreen;
+}
+.place-img{
+    width: 50%;
+}
+.place-description{
+    width: 50%;
+}
+.place-description h2{
+
+    font-size: 35px;
+    margin-top: -20px;
+}
+.place-description p{
+
+
+  width: 80%;
+}
+
+.img{ width: 80%;
+    margin-bottom:0px;
+  
+text-align: center;
+}
+
+
+.btn-primary2{background-color: #C70039 ;
+    color: white;
+    border: none;
+
+    padding: 10px;
+
+}
+.footer{
+    background-color: rgb(35, 35, 68);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    width: 1140px;
+    
+}
+
 @media  screen and (max-width: 576px) {
 
 
@@ -185,15 +236,48 @@ li{list-style: none;
 }
 .collection{
     max-width: 600px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   
     min-height: 100%;
 }
+
+.place{max-width: 1140px;
+    /* height: 60vh; */
+    flex-direction: column;  
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid seagreen;
 }
-.img{ width: 80%;
+.place-img{
+    width: 100%;
+}
+.place-description{
+    width: 100%;
+}
+.place-description h2{
+
+    font-size: 35px;
+    margin-top: 5px;
+
+}
+.footer{
+    width: 100%;
+
+   
+}
+img{ width: 100%;}
+}
+/* .img{ width: 80%;
     margin-bottom:0px;
   
 text-align: center;
 }
 
 
+.btn-primary2{background-color: #C70039 ;
+    color: white;
+    border: none;
+
+    padding: 10px;
+
+} */
