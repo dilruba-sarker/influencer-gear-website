@@ -37,7 +37,7 @@ li{list-style: none;
 
 }
 .banner-container{max-width: 1140px;
-    height: 50vh;
+    /* height: 100vh; */
     display: flex;}
 .banner{
     width: 50%;
@@ -128,7 +128,7 @@ li{list-style: none;
 
     
 .header-section{max-width: 1140px;
-    min-height: 200vh;
+  height: 380vh;
      background-color: rgba(253, 210, 210,.5);
     ;
  }
@@ -145,7 +145,7 @@ li{list-style: none;
     }
     .banner-container{
         flex-direction: column-reverse;
-        height: 100vh;
+        
       }
       .banner{
         width: 100%;
@@ -155,8 +155,11 @@ li{list-style: none;
      
     }
     .img{ width: 100%;
-        
-    text-align: center;
+        margin: 0 auto;
+      
+        display: flex;
+        align-items: center;
+    
   }
   .img img{
     
@@ -183,7 +186,7 @@ li{list-style: none;
 .collection{
     max-width: 600px;
     border: 1px solid blue;
-    margin-top: 300px;
+  
     min-height: 100%;
 }
 }
@@ -193,4 +196,4 @@ li{list-style: none;
 text-align: center;
 }
 
-}
+
